@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Redberry Knight Cup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="cssFolder/style.css" />
+    <link rel="stylesheet" href="cssFolder/queries.css" />
+
+    <script defer src="jsFolder/script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="section-two section">
+        <div class="second-left-half">
+          <header class="header logo-section">
+            <div class="main-logo">
+              <img
+                src="photos/Vector.svg"
+                alt="Website name"
+                class="crown-logo"
+              />
+              <img
+                src="photos/Redberry Knight Cup-logo.png"
+                alt="Website Logo"
+                class="second-logo"
+              />
+            </div>
+          </header>
+          <div class="left-quote-part">
+            <div class="photo-text">
+              <q class="quote-text">
+                When you see a good move, look for a better one.
+              </q>
+              <p class="quote-author">&dash;Emanuel Lasker</p>
+            </div>
+          </div>
+          <div class="yellow-photo"></div>
+        </div>
+
+        <div class="second-right-half">
+          <p class="creating-account">Start Creating Your Account</p>
+          <div class="info-section-err-msg">
+            <div class="info-section">
+              <div class="info-steps">
+                <p class="step step-one">1</p>
+                <img
+                  src="photos/Frame 9.svg"
+                  class="check-tick hidden"
+                  alt="Check icon"
+                />
+                <div class="for-line"></div>
+                <p class="step step-two">2</p>
+              </div>
+              <div class="personal-info">
+                <p class="step-info">Personal information</p>
+                <p class="step-info">Chess experience</p>
+              </div>
+            </div>
+            <div class="error-msg-box">
+              <!--<div class="error-msg">
+                <div class="err-first-line">
+                  <span
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 16 16"
+                      fill="currentColor"
+                      class="err-red-icon"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14ZM8 4a.75.75 0 0 1 .75.75v3a.75.75 0 0 1-1.5 0v-3A.75.75 0 0 1 8 4Zm0 8a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+                        clip-rule="evenodd"
+                      />
+                    </svg>
+                    Invalid number</span
+                  >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 16 16"
+                    fill="currentColor"
+                    class="x-icon"
+                  >
+                    <path
+                      d="M5.28 4.22a.75.75 0 0 0-1.06 1.06L6.94 8l-2.72 2.72a.75.75 0 1 0 1.06 1.06L8 9.06l2.72 2.72a.75.75 0 1 0 1.06-1.06L9.06 8l2.72-2.72a.75.75 0 0 0-1.06-1.06L8 6.94 5.28 4.22Z"
+                    />
+                  </svg>
+                </div>
+                <div class="line"></div>
+                <p>Please enter valid phone number</p>
+              </div>-->
+            </div>
+          </div>
+
+          <h2 class="personal-heading">Personal information</h2>
+          <p class="personal-para">These Are Basic Information Fields</p>
+
+          <form class="form-input">
+            <div class="each-input">
+              <label class="label-line" for="full-name"
+                >Name<span class="star">*</span></label
+              >
+              <input
+                id="full-name"
+                type="text"
+                placeholder=""
+                requered
+                class="name-input input"
+                oninput="getValue('name-input')"
+                autocomplete="off"
+              />
+              <img
+                src="photos/check-circle-fill.svg"
+                alt="check-tick"
+                class="green-tick hidden"
+              />
+            </div>
+
+            <div class="each-input">
+              <label class="label-line" for="email"
+                >Email<span class="star">*</span></label
+              >
+              <input
+                id="email"
+                text="email"
+                placeholder=""
+                required
+                class="email-input input"
+                oninput="getValue('email-input')"
+                autocomplete="off"
+              />
+              <img
+                src="photos/check-circle-fill.svg"
+                alt="check-tick"
+                class="green-tick hidden"
+              />
+            </div>
+
+            <div class="each-input">
+              <label class="label-line" for="phone-number"
+                >Phone number<span class="star">*</span></label
+              >
+              <input
+                id="phone-number"
+                text="number"
+                placeholder=""
+                required
+                class="phone-num-input input"
+                maxlength="9"
+                oninput="getValue('phone-num-input')"
+                autocomplete="off"
+              />
+              <img
+                src="photos/check-circle-fill.svg"
+                alt="check-tick"
+                class="green-tick hidden"
+              />
+            </div>
+
+            <div class="each-input">
+              <label class="label-line" for="text"
+                >Date of birth<span class="star">*</span></label
+              >
+              <input
+                id="text"
+                required
+                type="text"
+                placeholder=""
+                onblur="(this.type='text')"
+                class="birthday-input input"
+                oninput="getValue('birthday-input')"
+                autocomplete="off"
+              />
+              <img
+                src="photos/check-circle-fill.svg"
+                alt="check-tick"
+                class="green-tick hidden"
+              />
+            </div>
+          </form>
+
+          <div class="buttons">
+            <button class="btn-left">
+              <a href="index.html" class="link-back">Back</a>
+            </button>
+            <button type="submit" class="btn-right submit-btn">
+              <!-- href='index3.html' -->
+              <a class="link-next">
+                Next
+                <img
+                  src="photos/first-arrow-right-circle.svg"
+                  alt="Right Arrow"
+                />
+              </a>
+            </button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>

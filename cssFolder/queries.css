@@ -1,0 +1,551 @@
+/*****************************/
+/*Below 1312px(smaller desktops)*/
+/*****************************/
+@media (max-width: 82em) {
+  .landing-photo {
+    background-position: center bottom;
+  }
+  .main-heading {
+    font-weight: 800;
+    font-size: 7rem;
+    line-height: 9.5rem;
+  }
+  .knowledge-heading,
+  .character-heading {
+    max-width: 28rem;
+  }
+  .each-level {
+    width: 28rem;
+    padding: 1.8rem 0 2.5rem 0;
+  }
+  .chess-characters {
+    width: 28rem;
+    padding: 1.5rem 0 2.1rem 0;
+  }
+  .info-section-err-msg {
+    gap: 1.2rem;
+  }
+}
+/*****************************/
+/*Below 1200px(Landscape tablets)*/
+/*****************************/
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .personal-info {
+    gap: 3rem;
+  }
+  .for-line {
+    width: 14rem;
+  }
+}
+/*****************************/
+/*Below 1056px(tablets)*/
+/*****************************/
+@media (max-width: 66em) {
+  .section-one {
+    height: 100vh;
+    width: 100vw;
+    display: block;
+    background-image: url("../photos/Landing\ page-\ scrolling\ photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+  .first-left-half {
+    height: 100%;
+    display: block;
+  }
+  .logo-section {
+    position: relative;
+  }
+
+  .first-right-half {
+    position: absolute;
+    top: 8.5rem;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: rgba(240, 64, 33, 0.7);
+    gap: 1.8rem;
+    justify-content: center;
+    padding: 3rem 0 0 10rem;
+  }
+  .whole-heading {
+    margin-top: 5rem;
+  }
+  .start-btn {
+    margin-top: 7rem;
+  }
+
+  .section-two,
+  .section-three {
+    width: 105%;
+    grid-template-columns: 45fr 55fr;
+
+    /* grid-template-columns: 1fr 1fr; */
+  }
+  .photo-text {
+    top: 16rem;
+    left: 6rem;
+    max-width: 43rem;
+  }
+  .quote-text {
+    font-size: 2.3rem;
+    line-height: 3.3rem;
+  }
+  .second-photo-text {
+    left: 3rem;
+    max-width: 50rem;
+    margin-right: 1.5rem;
+  }
+  .second-quote-text {
+    font-size: 2rem;
+  }
+  .second-quote {
+    padding-right: 2rem;
+  }
+  .info-section-err-msg {
+    gap: 0;
+  }
+}
+/*****************************/
+/*Below 960px(tablets)*/
+/*****************************/
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+  .second-form {
+    margin: 0 0 14rem 3.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+  }
+  .info-section-err-msg {
+    gap: 0.6rem;
+  }
+  .error-msg-box {
+    height: 9rem;
+    width: 18rem;
+    z-index: 3;
+  }
+  .little-chess-player-photo {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .first-right-half {
+    top: 8.9rem;
+  }
+  .error-msg span {
+    font-size: 1.2rem;
+
+    gap: 0.3rem;
+  }
+  /* 900pixelze yvelaferi kargadaa so far mpu */
+  /* iq ro shevavseb, error msg ar qreba da eg unda davamato */
+}
+/*****************************/
+/*Below 768px(tablets)*/
+/*****************************/
+
+@media (max-width: 48em) {
+  html {
+    font-size: 56.25%;
+  }
+  .crown-logo {
+    padding-bottom: 0.5rem;
+  }
+  .section-one {
+    position: relative;
+  }
+  .start-btn {
+    position: absolute;
+    right: 6%;
+    top: -38%;
+  }
+  .link-btn {
+    gap: 1rem;
+  }
+  .whole-heading {
+    padding-bottom: 7rem;
+  }
+  .section {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
+  .yellow-photo {
+    width: 100%;
+    height: 50rem;
+  }
+  .photo-text {
+    top: 8rem;
+    left: 10rem;
+    max-width: 44rem;
+  }
+  .info-section-err-msg {
+    gap: 8rem;
+  }
+  .error-msg-box {
+    height: 11rem;
+    width: 22rem;
+  }
+  .buttons {
+    max-width: 75%;
+  }
+  .form-input {
+    width: 75%;
+  }
+  .third-left-half {
+    display: block;
+  }
+  .third-photo {
+    width: 100%;
+    height: 50rem;
+  }
+  .first-right-half {
+    top: 8.7rem;
+  }
+  .for-line {
+    width: 20rem;
+  }
+  .personal-info {
+    gap: 10rem;
+  }
+  .fourth-left-half {
+    height: 50%;
+  }
+  .fourth-photo {
+    height: 50rem;
+  }
+  .right-half {
+    height: 60rem;
+    padding-top: 2rem;
+  }
+}
+/*****************************/
+/*Below 656px*/
+/*****************************/
+@media (max-width: 41em) {
+  .first-right-half {
+    justify-content: flex-start;
+    padding: 1rem 0 0 2rem;
+  }
+  .whole-heading {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  .start-btn {
+    position: absolute;
+    right: 6%;
+    top: -53%;
+  }
+  .info-section-err-msg {
+    gap: 2rem;
+  }
+  .error-msg-box {
+    height: 8rem;
+    width: 18rem;
+  }
+  /* These do not work, for some reason */
+}
+/*****************************/
+/*Below 576px*/
+/*****************************/
+@media (max-width: 36em) {
+  .logo-section-one {
+    height: 15rem;
+  }
+  .start-btn {
+    right: 55%;
+    left: 5%;
+    top: -48%;
+  }
+  .first-right-half {
+    top: 15rem;
+  }
+  .heading-first-sent {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .heading-span {
+    line-height: 1;
+    padding: 0 0 2rem 2rem;
+  }
+  .buttons {
+    max-width: 70%;
+  }
+  .form-input {
+    width: 70%;
+  }
+  .info-section-err-msg {
+    gap: 0;
+  }
+  .second-right-half {
+    position: relative;
+  }
+  .error-msg-box {
+    position: absolute;
+    z-index: 5;
+    opacity: 1;
+    left: 55%;
+    top: 10%;
+  }
+  .form-input label {
+    left: 2.5%;
+  }
+}
+/*****************************/
+/*Below 480px*/
+/*****************************/
+@media (max-width: 30em) {
+  .main-heading {
+    font-size: 5.3rem;
+    line-height: 8rem;
+    padding-left: 0;
+    white-space: nowrap;
+    margin-left: 0;
+  }
+  .heading-span {
+    padding-left: 0.5rem;
+  }
+  .start-btn {
+    white-space: nowrap;
+    right: 50%;
+    left: 4%;
+    top: -55%;
+  }
+  .first-right-half {
+    padding-left: 1rem;
+  }
+  .main-logo {
+    padding: 3rem 0 3rem 3.5rem;
+  }
+  .photo-text {
+    top: 8rem;
+    left: 2rem;
+  }
+  .yellow-photo {
+    height: 43rem;
+  }
+  .for-line {
+    width: 15rem;
+  }
+  .personal-info {
+    gap: 5.5rem;
+  }
+  .error-msg-box {
+    left: 48%;
+  }
+  .form-input label {
+    left: 3.2%;
+  }
+  .second-photo-text {
+    left: 1rem;
+    top: 6rem;
+  }
+  .creating-account {
+    padding: 3rem 0 3rem 2.5rem;
+
+    font-size: 1.5rem;
+  }
+  .second-form {
+    margin-left: 2.5rem;
+  }
+  .third-form {
+    margin-left: 2.3rem;
+  }
+  .personal-heading2 {
+    margin-left: 3.3rem;
+  }
+  .personal-para2 {
+    margin: 0 0 8.5rem 3.3rem;
+  }
+  .success-msg {
+    font-weight: 700;
+    font-size: 3.1rem;
+  }
+  .fail-msg {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    white-space: normal;
+    text-align: center;
+  }
+}
+/*****************************/
+/*Below 352px*/
+/*****************************/
+@media (max-width: 22em) {
+  html {
+    font-size: 50%;
+  }
+  .main-logo {
+    padding: 3rem 0 3rem 3rem;
+  }
+
+  .main-heading {
+    font-weight: 900;
+    font-size: 5rem;
+    line-height: 7.9rem;
+    padding-left: 1rem;
+    white-space: nowrap;
+  }
+  .heading-span {
+    line-height: 1rem;
+    padding-bottom: 1rem;
+  }
+  .start-btn {
+    right: 45%;
+    left: 2%;
+    top: -58%;
+  }
+  .yellow-photo {
+    width: 100%;
+    height: 40rem;
+  }
+  .fourth-left-half {
+    height: 50%;
+  }
+  .fourth-photo {
+    height: 50rem;
+  }
+  .right-half {
+    height: 60rem;
+    padding-top: 2rem;
+  }
+  .photo-text {
+    top: 8rem;
+    left: 4rem;
+    max-width: 35rem;
+  }
+  .for-line {
+    width: 12rem;
+  }
+  .personal-info {
+    gap: 4rem;
+  }
+  .info-section {
+    margin: 6rem 0 11.5rem 1.8rem;
+  }
+  .personal-heading {
+    margin-left: 1.8rem;
+    z-index: 2;
+  }
+  .personal-para {
+    margin: 0 0 8.5rem 1.8rem;
+    z-index: 3;
+  }
+  .form-input {
+    margin: 0 0 8.8rem 1.8rem;
+  }
+  .buttons {
+    margin: 0 0 4rem 1.8rem;
+  }
+  .creating-account {
+    padding: 3rem 0 3rem 1.8rem;
+  }
+
+  .error-msg-box {
+    left: 50%;
+  }
+  .second-form {
+    margin: 0 0 14rem 1rem;
+  }
+  .third-form {
+    margin-left: 1rem;
+  }
+  .second-quote-text {
+    font-size: 1.8rem;
+  }
+  .quote-text {
+    font-size: 1.7rem;
+  }
+}
+/*****************************/
+/*Below 320px*/
+/*****************************/
+@media (max-width: 20em) {
+  html {
+    font-size: 45%;
+  }
+  .first-right-half {
+    padding: 2rem 0 2rem 2rem;
+  }
+  .start-btn {
+    right: 54%;
+    left: 1%;
+    top: -52%;
+  }
+  .second-photo-text {
+    left: 1rem;
+    top: 6rem;
+  }
+  .main-logo {
+    padding: 3rem 0 3rem 2rem;
+  }
+  .yellow-photo,
+  .third-photo {
+    height: 35rem;
+  }
+  .success-msg {
+    font-size: 2.8rem;
+  }
+  .fail-msg {
+    font-size: 1.4rem;
+  }
+}
+/*****************************/
+/*Below 288px*/
+/*****************************/
+@media (max-width: 18em) {
+  html {
+    font-size: 40%;
+  }
+  .crown-logo {
+    width: 5%;
+  }
+  .second-logo {
+    width: 75%;
+  }
+  .start-btn {
+    right: 52%;
+    left: -1%;
+    top: -58%;
+  }
+  .error-msg-box {
+    left: 45%;
+    top: 10%;
+  }
+  .second-photo-text {
+    left: 1rem;
+    top: 4rem;
+  }
+  .quote-author {
+    line-height: 1.3rem;
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+    font-size: 2rem;
+  }
+  .creating-account {
+    padding: 3rem 0 3rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  .first-right-half {
+    padding: 1.5rem 0 2rem 1rem;
+  }
+  .main-heading {
+    font-weight: 800;
+    font-size: 4.5rem;
+    line-height: 7rem;
+  }
+  .quote-text {
+    font-size: 1.7rem;
+  }
+}
